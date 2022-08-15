@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WPF_Destroyer.View
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Settings.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Settings : Page
     {
-        public MainWindow()
+        public Settings()
         {
             InitializeComponent();
         }

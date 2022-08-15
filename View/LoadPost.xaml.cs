@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WPF_Destroyer.View
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для LoadPost.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LoadPost : Page
     {
-        public MainWindow()
+        public LoadPost()
         {
             InitializeComponent();
         }
