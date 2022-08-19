@@ -7,7 +7,8 @@
       xmlns:vm="clr-namespace:WPF_Destroyer.ViewModel"
       mc:Ignorable="d" 
       d:DesignHeight="520" d:DesignWidth="1000"
-      Title="Settings">
+      Title="Settings"
+      Background="#fbfbfb">
     <Page.DataContext>
         <vm:SettingsViewModel>
             
@@ -114,8 +115,11 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="150"></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
         </Grid.RowDefinitions>
+        <Label Content="Список сайтов" Grid.Row="0" Margin="20" FontSize="15">
+
+        </Label>
         <StackPanel Grid.Row="0" Orientation="Horizontal">
             <Button Content="Добавить сайт"
                 Style="{DynamicResource PrimaryButtonStyle}"
@@ -149,6 +153,31 @@
                 
                >
             </Button>
+        </StackPanel>
+        <Label Content="Параметры учетной записи" Grid.Row="1" Margin="20" FontSize="15">
+            
+        </Label>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Логин"
+                Style="{DynamicResource PrimaryButtonStyle}"
+                HorizontalAlignment="Left"
+                FontSize="13"
+                Margin="20"
+               >
+            </Button>
+            <TextBox Margin="2" Width="220" Height="40">
+                
+            </TextBox>
+            <Button Content="Пароль"
+                Style="{DynamicResource PrimaryButtonStyle}"
+                HorizontalAlignment="Left"
+                FontSize="13"
+                    Margin="20"
+               >
+            </Button>
+            <TextBox Margin="2" Width="220" Height="40">
+
+            </TextBox>
         </StackPanel>
     </Grid>
 </Page>

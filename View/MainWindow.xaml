@@ -32,6 +32,14 @@
                                                      Value="True">
                                                 <Setter Property="Foreground" Value="DarkGray"/>
                                             </DataTrigger>
+                                            <DataTrigger Binding="{Binding RelativeSource={RelativeSource
+                                                Mode=FindAncestor,
+                                                AncestorType={x:Type Button}
+                                                },
+                                                Path=IsFocused
+                                                }" Value="True">
+                                                <Setter Property="Foreground" Value="Blue"></Setter>
+                                            </DataTrigger>
                                         </Style.Triggers>
                                     </Style>
                                 </Label.Style>
@@ -55,7 +63,7 @@
             
         </Frame>
         <Grid Name="TopMenu" Grid.Row="0" Grid.ColumnSpan="2">
-            <Border BorderThickness="1" BorderBrush="Gray" Background="Transparent">
+            <Border BorderThickness="0, 0, 0, 0" BorderBrush="Gray" Background="Transparent">
                 <StackPanel Orientation="Horizontal">
                     <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Загрузить посты" Command="{Binding OpenLpPage}">
                         <Button.Resources>
