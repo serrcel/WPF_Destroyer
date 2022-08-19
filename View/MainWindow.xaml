@@ -57,28 +57,28 @@
         <Grid Name="TopMenu" Grid.Row="0" Grid.ColumnSpan="2">
             <Border BorderThickness="1" BorderBrush="Gray" Background="Transparent">
                 <StackPanel Orientation="Horizontal">
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="ЗАГРУЗИТЬ ПОСТЫ" Command="{Binding OpenLpPage}">
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Загрузить посты" Command="{Binding OpenLpPage}">
                         <Button.Resources>
                             <ImageSource x:Key="Img">
                                 Res/Icons/load_icon.png
                             </ImageSource>
                         </Button.Resources>
                     </Button>
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="ОТСЕЯТЬ ТРАФ" Command="{Binding OpenCtPage}">
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Отсеять траф" Command="{Binding OpenCtPage}">
                         <Button.Resources>
                             <ImageSource x:Key="Img">
                                 Res/Icons/filter_icon.png
                             </ImageSource>
                         </Button.Resources>
                     </Button>
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="УДАЛИТЬ МУСОР" Command="{Binding OpenDtPage}">
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Удалить мусор" Command="{Binding OpenDtPage}">
                         <Button.Resources>
                             <ImageSource x:Key="Img">
                                 Res/Icons/delete_icon.png
                             </ImageSource>
                         </Button.Resources>
                     </Button>
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="НАСТРОЙКИ" Command="{Binding OpenStPage}">
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Настройки" Command="{Binding OpenStPage}">
                         <Button.Resources>
                             <ImageSource x:Key="Img">
                                 Res/Icons/settings_icon.png
