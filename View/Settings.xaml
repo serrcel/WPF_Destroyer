@@ -159,6 +159,7 @@
         </Label>
         <StackPanel Grid.Row="1" Orientation="Horizontal">
             <Button Content="Логин"
+                    Background="Gray"
                 Style="{DynamicResource PrimaryButtonStyle}"
                 HorizontalAlignment="Left"
                 FontSize="13"
@@ -169,7 +170,9 @@
                 
             </TextBox>
             <Button Content="Пароль"
+                    
                 Style="{DynamicResource PrimaryButtonStyle}"
+                    Background="Gray"
                 HorizontalAlignment="Left"
                 FontSize="13"
                     Margin="20"
