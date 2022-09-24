@@ -6,11 +6,20 @@
       xmlns:local="clr-namespace:WPF_Destroyer.View"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="LoadPost">
+      Title="LoadPost" Background="#fbfbfb">
 
     <Grid>
-        <Label Content="Загрузить посты">
-
-        </Label>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="Грузим посты" FontSize="17" FontWeight="Medium" Grid.Row="0" HorizontalAlignment="Center"/>
+        <Label Content="Отсев постов с трафом" FontSize="17" FontWeight="Medium" Grid.Row="1" HorizontalAlignment="Center"/>
+        <Label Content="Уничтожаем мусор" FontSize="17" FontWeight="Medium" Grid.Row="2" HorizontalAlignment="Center"/>
+        <TextBox Grid.Row="3" FontSize="17" HorizontalScrollBarVisibility="Auto"> 
+            
+        </TextBox>
     </Grid>
 </Page>

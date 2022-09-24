@@ -76,14 +76,6 @@
     <Compile Include="View\Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
-    <Page Include="View\ChangeTraf.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\DeleteGarbagge.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\LoadPost.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -95,12 +87,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="View\ChangeTraf.xaml.cs">
-      <DependentUpon>ChangeTraf.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\DeleteGarbagge.xaml.cs">
-      <DependentUpon>DeleteGarbagge.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LoadPost.xaml.cs">
       <DependentUpon>LoadPost.xaml</DependentUpon>

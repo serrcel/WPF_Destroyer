@@ -72,14 +72,14 @@
                             </ImageSource>
                         </Button.Resources>
                     </Button>
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Отсеять траф" Command="{Binding OpenCtPage}">
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Отсеять траф">
                         <Button.Resources>
                             <ImageSource x:Key="Img">
                                 Res/Icons/filter_icon.png
                             </ImageSource>
                         </Button.Resources>
                     </Button>
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Удалить мусор" Command="{Binding OpenDtPage}">
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="Удалить мусор">
                         <Button.Resources>
                             <ImageSource x:Key="Img">
                                 Res/Icons/delete_icon.png
